@@ -6,4 +6,3 @@ fs.readFile('data.json', function(err, data){
     console.log(jsonParsed.items[0].fname, jsonParsed.items[0].age);
     console.log(jsonParsed.items[1].fname, jsonParsed.items[1].age);
 })
-
